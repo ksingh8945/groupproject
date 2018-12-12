@@ -581,7 +581,136 @@ int a;
             {
                 paragraph();
             }
-        } 
+        }
+
+
+    void seranto()
+        {
+
+             int serantoprice=16740;
+            int aa,bb;  
+             cout<<" City Mileage =  35Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  128hp @ 2500Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 16,740 "<<endl;
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 16740 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<serantoprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+        }
+        void crola()
+        {
+             int crolaprice=13740;
+            int aa,bb;  
+             cout<<" City Mileage =  20Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  118hp @ 2500Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 13,740 "<<endl;
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 13740 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<crolaprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+        }
+
+
+        void pc()
+        {
+             int pcprice=15740;
+            int aa,bb;  
+             cout<<" City Mileage =  30Mpg "<<endl;
+              cout<<" Fuel type    =  petrol "<<endl;
+              cout<<" Engine(cc)   =  120hp @ 2600Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 15,740 "<<endl;
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 15740 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<pcprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+        }
+
 
 
 
