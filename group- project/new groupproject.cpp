@@ -180,4 +180,194 @@ int a;
            } }
 
 
+
+
+
+
+ void acent()
+          {
+            int acentprice=17000;
+            int aa,bb;  
+              cout<<" City Mileage =  9.0Kmpl "<<endl;
+              cout<<" Fuel type    =  Petrol "<<endl;
+              cout<<" Engine(cc)   =  1495   "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 17,000 "<<endl;
+
+
+                cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 17000 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<acentprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+
+
+
+          }
+          void lantra ()
+          {
+               int lantraprice=19000;
+            int aa,bb;  
+
+              cout<<" City Mileage =  28Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  1500   "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 19,000 "<<endl;
+
+
+
+              cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 19000 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<lantraprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+           
+
+          }
+
+
+
+          void camry()
+          {
+           int camryprice=25000;
+            int aa,bb;  
+              
+              cout<<" City Mileage =  39Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  203hp @ 6600Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 25,000 "<<endl;
+
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 25000 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<camryprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                 paragraph();
+            }
+           
+          }
+
+
+          void pirus()
+          {
+               int pirusprice=24000;
+            int aa,bb;  
+               cout<<" City Mileage =  54Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  121hp @ 5200Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 24,000 "<<endl;
+
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 24000 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<pirusprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+
+
+          }
+
+
+
           
