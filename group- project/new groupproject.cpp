@@ -369,5 +369,220 @@ int a;
           }
 
 
+ void acod()
+          {
+               int acodprice=25780;
+            int aa,bb;  
+               cout<<" City Mileage =  29Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  192hp @ 5500Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 25,780 "<<endl;
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 25780 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<acodprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+
+
+          }
+          void civic(){
+               int civicprice=19740;
+            int aa,bb;  
+
+               cout<<" City Mileage =  31Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  158hp @ 6500Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 19,740 "<<endl;
+
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 19740 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<civicprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+          }
+          void maza()
+          {
+               int mazaprice=12740;
+            int aa,bb;  
+              
+               cout<<" City Mileage =  25Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  118hp @ 2500Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 12,740 "<<endl;
+
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 12740 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<mazaprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+          }
+
+          void cx()
+          {
+               int cxprice=15740;
+            int aa,bb;  
+               cout<<" City Mileage =  27Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  122hp @ 2600Rpm  "<<endl;
+              cout<<" Seating      =    6    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 15,740 "<<endl;
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 15740 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<cxprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+          }
+        void kia()
+        {
+             int kiaprice=12740;
+            int aa,bb;  
+
+             cout<<" City Mileage =  25Mpg "<<endl;
+              cout<<" Fuel type    =  Regular gas "<<endl;
+              cout<<" Engine(cc)   =  118hp @ 2500Rpm  "<<endl;
+              cout<<" Seating      =    5    "<<endl;
+              cout<<"____________________________"<<endl;
+              cout<<" price       =   $ 12,740 "<<endl;
+
+
+               cout<<"              "<<endl;
+               cout<<" enter 1 to buy this  car "<<endl;
+                cout<<" enter 2 to return to menu"<<endl;
+                cin>>aa;
+                if (aa==1)
+                {
+                    cout<<" Press 1 to fill the bill "<<endl;
+                    cout<<" press 2 to exit "<<endl;
+                    cin>>bb;
+                    if(bb==1)
+                    {
+                        cout<<" your payment is $ 12740 +tax"<<endl;
+                        {
+                        bill();
+                        }
+                        cout<<" you filled your payment  $"<<kiaprice<<endl;
+                        cout<<" ************************"<<endl;
+                        cout<<" Thanks for visiting "<<endl;
+                    }
+                    else if ( bb==2)
+                    {
+                        cout<<endl;
+                    }
+                }
+
+            else if (aa==2)
+            {
+                paragraph();
+            }
+        } 
+
+
 
           
